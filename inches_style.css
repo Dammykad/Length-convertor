@@ -1,0 +1,37 @@
+h1    {
+    color: blue;
+    font-size: 50px;
+  }
+  h3    {
+    color: blue;
+  }
+#inch {
+  font-size: 40px;
+}
+
+.btn {
+  font-size: 31px;
+  font-family: lobster;
+  }
+.size-pl {
+  font-size: 30px;
+  text-align: center;
+}
+
+.lobster {
+  font-family: lobster;
+  text-align: center;
+  color: blue;
+}
+body {
+  background-color: grey ;
+  text-align: center
+  }
+.alert {
+  color: blue;
+  font-family: lobster;
+  font-size: 30px
+}
+.select-op {
+  margin-left: 50px;
+}

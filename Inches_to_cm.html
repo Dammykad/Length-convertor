@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="inches_to_cm.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="inches_style.css">
+    <head><title>Length Convertor</title></head>
+    <h1 class="lobster">Length Convertor</h1>
+    <h3 class="lobster">This program converts inches to centimeters and vice versa</h3>
+        <label class="lobster" >Input: <input type="number" placeholder="Type the value u wish to Convert" class="form-control form-control btn-block size-pl" required id="numInput" ></label><br>
+    <div class="row container">
+      <div class="col-md-4"> <p></p> </div>
+      <div class="col-md-6">
+        <select id="inches_cm_choice" 
+        class="lobster form-control form-control-lg select-opt" 
+        placeholder="select a unit">
+          <option value="Inches">Convert Inches to Centimeters</option>
+          <option value="Centimeters">Convert Centimeters to Inches</option>
+        </select>
+        </div>
+        <div class="col-md-3"> <p></p> </div>
+      </div>
+      <div class="row container">
+        <div class="col-md-4">
+          <p></p>
+        </div>
+        <div class="col-md-6">
+          <button class="btn btn-primary btn-block" onclick="doConversion()">Convert</button>
+          </div>
+          <div class="col-md-3">
+              <p></p>
+            </div>
+      </div>
+    <div class="row container">
+      <div class="col-md-4">
+        <p></p>
+      </div>
+      <div class="col-md-6 alert alert-success">
+        <p class="" > <span  id="result"></span> </p>
+        </div>
+        <div class="col-md-3">
+            <p></p>
+          </div>
+    </div>
+
+<script src="inches_to_cm.js"></script>
